@@ -1,0 +1,29 @@
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    background-color: #ccc;
+}
+
+#game-board{
+background-color: rgb(31, 30, 30);
+
+    width: 88vmin;
+    height: 88vmin;
+/* o código abaixo forma o tabuleiro 21x21 */
+    display: grid;
+    grid-template-rows: repeat(21,auto); 
+    grid-template-columns: repeat(21,auto);
+}
+
+.snake{
+    background-color: rgb(53, 145, 53);
+}
+.food{
+    background-color: #d84242;
+}
